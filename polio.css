@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+    padding: 20px;
+}
+
+header nav2 {
+    color: white;
+}
+
+header nav2 ul {
+    background-color: white;
+    border: 5px solid gray;
+    list-style: none;
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    float: right;   
+}
+
+header nav2 ul p {
+    color: white;
+}
+/*  */
+header h1, header h2 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 40px 20px;
+}
+
+#about, #projects {
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 800px;
+    border: 1px solid black; 
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 75px;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.info-box {
+    margin-bottom: 20px;
+}
+
+.certificates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificate {
+    flex: 1; 
+    margin: 0 10px; 
+    text-align: center;
+}
+
+.certificate img {
+    width: 100px;
+    height: auto;
+}
+
+.project {
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 5px; 
+    background-color: white;
+}
+
+.project h3 {
+    margin-top: 0; 
+}
+
+.project a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+

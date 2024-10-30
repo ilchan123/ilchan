@@ -1,0 +1,20 @@
+/* 전체적인 윤곽 (위) */
+/* 사이트에 디자인 (아래) */
+
+header {
+    font-family: 'Quicksand', sans-serif; 
+    text-align: justify;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
